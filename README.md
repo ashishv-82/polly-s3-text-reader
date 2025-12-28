@@ -10,22 +10,12 @@ This project provides an automated way to convert text to speech using AWS Polly
 - **IAM Role** with required permissions for Lambda, Polly, and S3.
 - **Terraform** for infrastructure as code, with idempotent resource creation (won’t recreate S3 bucket or IAM role if they already exist).
 
-## Project Structure
 
-```
-.
-├── lambda/
-│   └── index.js           # Lambda function code
-├── terraform/
-│   ├── iam.tf
-│   ├── lambda.tf
-│   ├── main.tf
-│   ├── outputs.tf
-│   ├── provider.tf
-│   ├── variables.tf
-│   └── ...
-└── README.md
-```
+## Services Used 🛠
+
+- **Amazon Polly**: Converts text to life like speech with customizable features.
+- **AWS Management Console**: Manages accounts and configures Amazon Polly.
+- **AWS IAM**: Ensures secure access by managing user permissions.
 
 ## Prerequisites
 
