@@ -76,6 +76,3 @@ terraform destroy
 
 MIT
 
----
-
-**Author:** Ashish  
